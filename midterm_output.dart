@@ -8,6 +8,7 @@ void main(){
     print("Enter number of rounds");
    int number_of_rounds = int.parse(stdin.readLineSync());
     
+   //loop for the number of rounds
     for (var i = 1; i <= number_of_rounds; i++)
    {
    print("Round $i : Papel, Gunting, Bato! What's your Pick? ");
