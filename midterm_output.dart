@@ -5,7 +5,7 @@ void main(){
     int computer_score = 0;
     int challenger_score = 0;
     
-    print("Enter number of rounds");
+    print("Enter number of rounds:");
    int number_of_rounds = int.parse(stdin.readLineSync());
     
    //loop for the number of rounds
